@@ -1,0 +1,160 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: transparent;
+}
+.navicon{
+    position: absolute;
+    top: 16px;
+    right:160px;
+    color: white;
+}
+
+.navbar .navbar-brand{
+    color: white !important;
+    left: 50px !important;
+}
+.navbar .nav-link{
+    color: white !important;
+    position: relative !important;
+    left: -100px !important;
+
+}
+.navbar .dropdown-item{
+    color: black !important;
+}
+.carousel-inner .carousel-item img{
+    height: 700px;
+    width: 500px;
+}
+
+.carousel-caption {
+    left: 15%;
+    top: 45%;
+    text-align: center;
+}
+.carousel-caption button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius:  40%; 
+}
+.carousel-item::after{
+    content: "";
+    width: 100%;
+    height: 140px;
+    display: flex;
+    background: linear-gradient(0deg , #ffffff, transparent);
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+}
+button{
+    color: orange;
+    border:transparent;
+}
+.btn-group{
+    text-align: center;
+}
+.card{
+    background-size: cover;
+}
+.about img{
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: 500px;
+}
+.about h3{
+color: orange;
+text-align: center;
+}
+@keyframes textdown{
+    from {transform : translateY(-50px)}
+    to{ transform :translateY(0);}
+}
+.carousel-caption{
+    animation: textdown 1s ease-out ;
+}
+.About-2 img{
+    background-size:cover ;
+    width: 100%;
+    display: block;
+    height: 600px;
+}
+.About-2 h3{
+    color: orange;
+    text-align: center;
+}
+.navbar{
+}
+.testimonials h3{
+    color: orange;
+    text-align: center;
+}
+.testimonials h2{
+    text-align: center;
+}
+
+
+    .stars {
+  color: gold;      
+  font-size: 20px;   
+}
+.testi-1{
+    background-image:url("https://tse1.mm.bing.net/th/id/OIP.MeoIuMa1vZnycQQ1aKx7KAHaEr?r=0&w=1200&h=758&rs=1&pid=ImgDetMain&o=7&rm=3") ;
+    background-size: cover;
+    color: black;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 80px;
+
+}
+.review-box{
+    width: 240px;
+    height: 250px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    text-align: center;
+}
+.review-box img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.testi-2{
+    background-image:url("https://m.media-amazon.com/images/I/713RUlcx90L._SL1200_.jpg") ;
+    background-size: cover;
+    color: black;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 100px;
+
+}
+.testi-3{
+    background-image:url("https://tse1.mm.bing.net/th/id/OIP.03MaqkUHQcbQkCQxbPJv7wHaHa?r=0&pid=Api&h=220&P=0");
+    background-size: cover;
+    color: black;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 100px;
+}
